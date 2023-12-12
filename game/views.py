@@ -11,5 +11,5 @@ def index(request):
 def play(request):
     line1 = '<h1 style="text-align: center">游戏界面</h1>'
     line3 = '<a href="/">返回主界面</a>'
-    line2 = '<img src="https://syimg.3dmgame.com/uploadimg/img/2017/1026/1508980192918294.png">'
-    return HttpResponse(line1 + line3 + line2)
+    line2 = '<img src="https://syimg.3dmgame.com/uploadimg/img/2017/1026/1508980192918294.png" width = 1000>'
+    return HttpResponse(line1 + line2 + line3)
