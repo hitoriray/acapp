@@ -40,13 +40,10 @@ class AcGameMenu {
         });
 
         this.$multi_mode.click(function(){
-            //console.log("click multi mode");
-            outer.hide();
-            outer.root.playground.show();
+            console.log("click multi mode");
         });
 
-        this.$settings.click(function(){
-            console.log("click settings");
+        this.$settings.click(function(){;
         });
     }
 
